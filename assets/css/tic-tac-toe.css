@@ -1,0 +1,28 @@
+.tictactoe {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  background-color: #000000;
+  grid-gap: 5px;
+  grid-template-columns: 33% 33% 33%;
+  grid-auto-rows: 33% 33% 33%;
+}
+.grid {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10em;
+}
+.background {
+  background-color: white;
+}
+#btn1 {grid-column-start: 1; grid-row-start: 1;}
+#btn2 {grid-column-start: 2; grid-row-start: 1;}
+#btn3 {grid-column-start: 3; grid-row-start: 1;}
+#btn4 {grid-column-start: 1; grid-row-start: 2;}
+#btn5 {grid-column-start: 2; grid-row-start: 2;}
+#btn6 {grid-column-start: 3; grid-row-start: 2;}
+#btn7 {grid-column-start: 1; grid-row-start: 3;}
+#btn8 {grid-column-start: 2; grid-row-start: 3;}
+#btn9 {grid-column-start: 3; grid-row-start: 3;}
